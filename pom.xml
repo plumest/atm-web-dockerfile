@@ -11,6 +11,7 @@
 	<groupId>th.ac.ku</groupId>
 	<artifactId>atm</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>atm</name>
 	<description>Banking service website</description>
 
@@ -58,6 +59,7 @@
 	</dependencies>
 
 	<build>
+		<defaultGoal>install</defaultGoal>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
